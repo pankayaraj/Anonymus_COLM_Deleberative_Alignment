@@ -15,7 +15,7 @@ from peft import LoraConfig,PeftConfig, PeftModel,inject_adapter_in_model, get_p
 
 parser = argparse.ArgumentParser(description='Generation Arguments')
 parser.add_argument("--model", type=str, default="Qwen/Qwen2.5-1.5B-Instruct")
-parser.add_argument("--dataset", type=str, default="Pankayaraj/STAR-41K-DA-Filtered-DeepSeek-R1-Distill-Qwen-32B")
+parser.add_argument("--dataset", type=str, default="YOUR_REPO/STAR-41K-DA-Filtered-DeepSeek-R1-Distill-Qwen-32B")
 parser.add_argument("--hf_token", type=str, default="")
 parser.add_argument("--batch_size", type=int, default=4)
 parser.add_argument("--accumulation_size", type=int, default=8)

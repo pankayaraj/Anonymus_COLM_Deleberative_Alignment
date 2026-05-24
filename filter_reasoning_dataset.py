@@ -10,7 +10,7 @@ import re
 
 
 parser = argparse.ArgumentParser(description='Generation Arguments')
-parser.add_argument("--dataset", type=str, default="Pankayaraj/STAR-41K-DA-Unfiltered-DeepSeek-R1-Distill-Llama-8B")
+parser.add_argument("--dataset", type=str, default="YOUR_REPO/STAR-41K-DA-Unfiltered-DeepSeek-R1-Distill-Llama-8B")
 parser.add_argument("--hf_token", type=str, default="")
 parser.add_argument("--batch_size", type=int, default=32)
 
